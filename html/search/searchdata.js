@@ -1,9 +1,9 @@
 var indexSectionsWithContent =
 {
-  0: "_cdgnu",
+  0: "_cdgnpsu",
   1: "cn",
-  2: "cn",
-  3: "_dgu",
+  2: "cns",
+  3: "_dgpu",
   4: "d"
 };
 

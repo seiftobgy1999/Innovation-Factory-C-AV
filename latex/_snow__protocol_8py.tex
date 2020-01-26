@@ -1,0 +1,62 @@
+\hypertarget{_snow__protocol_8py}{}\subsection{Snow\+\_\+protocol.\+py File Reference}
+\label{_snow__protocol_8py}\index{Snow\_protocol.py@{Snow\_protocol.py}}
+
+
+Provides function for how to react when apporaching snow patch.  
+
+
+\subsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{_snow__protocol_8py_afd293d107f8c8fe988b85e1c30ae5a85}{Snow\+\_\+protocol.\+Protocol}} (car, node, patch\+\_\+length, distance)
+\begin{DoxyCompactList}\small\item\em Node constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_snow__protocol_8py_a22ae9b49f99ade1d4b1e718e2ad5f193}\label{_snow__protocol_8py_a22ae9b49f99ade1d4b1e718e2ad5f193}} 
+float {\bfseries Snow\+\_\+protocol.\+threshhold} = 4.\+5
+\item 
+\mbox{\Hypertarget{_snow__protocol_8py_a1251575ab31e26dde57301a7c62b0692}\label{_snow__protocol_8py_a1251575ab31e26dde57301a7c62b0692}} 
+{\bfseries Snow\+\_\+protocol.\+car1} = Car(10, 80)
+\item 
+\mbox{\Hypertarget{_snow__protocol_8py_a715386c8faa8a4aecc2e9d33df8688ee}\label{_snow__protocol_8py_a715386c8faa8a4aecc2e9d33df8688ee}} 
+{\bfseries Snow\+\_\+protocol.\+node1} = Node(0.\+5, \char`\"{}he\char`\"{}, -\/1, 1000000, 0, \char`\"{}light snow\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+Provides function for how to react when apporaching snow patch. 
+
+\begin{DoxyAuthor}{Author}
+Mostafa Mohsen, Chris Vishnu, Seif El Tobgy, Saif Fadhel 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+26/01/2020 
+\end{DoxyDate}
+
+
+\subsubsection{Function Documentation}
+\mbox{\Hypertarget{_snow__protocol_8py_afd293d107f8c8fe988b85e1c30ae5a85}\label{_snow__protocol_8py_afd293d107f8c8fe988b85e1c30ae5a85}} 
+\index{Snow\_protocol.py@{Snow\_protocol.py}!Protocol@{Protocol}}
+\index{Protocol@{Protocol}!Snow\_protocol.py@{Snow\_protocol.py}}
+\paragraph{\texorpdfstring{Protocol()}{Protocol()}}
+{\footnotesize\ttfamily def Snow\+\_\+protocol.\+Protocol (\begin{DoxyParamCaption}\item[{}]{car,  }\item[{}]{node,  }\item[{}]{patch\+\_\+length,  }\item[{}]{distance }\end{DoxyParamCaption})}
+
+
+
+Node constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em car} & the car is a object that contains that speed and ID of the vehicle \\
+\hline
+{\em node} & the node is a unit that contains various sensors that measure environmental conditions \\
+\hline
+{\em patch\+\_\+length} & the length of the patch of snow \\
+\hline
+{\em distance} & the distance from the car to the patch of snow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a string that represents the set of protocols to follow when you approach a patch of snow 
+\end{DoxyReturn}

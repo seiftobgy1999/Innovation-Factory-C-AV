@@ -1,6 +1,6 @@
 ## @file Snow_protocol.py
 #  @author Mostafa Mohsen, Chris Vishnu, Seif El Tobgy, Saif Fadhel
-#  @brief Provides the Abstract Data Type for Node
+#  @brief Provides function for how to react when apporaching snow patch
 #  @date 26/01/2020
 from Car import *
 from Node import *
@@ -19,17 +19,17 @@ def Protocol(car, node, patch_length, distance):
     if node.determine_snow(node.get_video()) != 0:
         vf = vi
 
-    
+
     else:
         vf = 0.8 * vi
 
     a = abs((vf**2 - vi**2)/(2 * distance))
     a = min(a, threshhold)
     new = (vi**2 + 2 * -a * distance)**0.5
-    modifier = new / vi 
+    modifier = new / vi
     car.update_speed(modifier)
 
-    return ("initial V = " + str(vi) +  "; accelerate for a = " + str(-a) + "; untill final V = " + str(new)) 
+    return ("initial V = " + str(vi) +  "; accelerate for a = " + str(-a) + "; untill final V = " + str(new))
 
 car1 = Car(10, 80)
 node1 = Node(0.5, "he", -1, 1000000, 0, "light snow")
