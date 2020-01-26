@@ -1,0 +1,33 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {section}{\numberline {1}Class Index}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Class List}{1}{subsection.1.1}
+\contentsline {section}{\numberline {2}File Index}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}File List}{1}{subsection.2.1}
+\contentsline {section}{\numberline {3}Class Documentation}{1}{section.3}
+\contentsline {subsection}{\numberline {3.1}car.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Car Class Reference}{1}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Detailed Description}{2}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Member Function Documentation}{2}{subsubsection.3.1.2}
+\contentsline {paragraph}{\numberline {3.1.2.1}\_\_str\_\_()}{2}{paragraph.3.1.2.1}
+\contentsline {paragraph}{\numberline {3.1.2.2}get\_ID()}{2}{paragraph.3.1.2.2}
+\contentsline {paragraph}{\numberline {3.1.2.3}get\_speed()}{3}{paragraph.3.1.2.3}
+\contentsline {paragraph}{\numberline {3.1.2.4}update\_speed()}{3}{paragraph.3.1.2.4}
+\contentsline {subsection}{\numberline {3.2}car.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Node Class Reference}{3}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Detailed Description}{4}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Constructor \& Destructor Documentation}{4}{subsubsection.3.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.1}\_\_init\_\_()}{4}{paragraph.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.3}Member Function Documentation}{5}{subsubsection.3.2.3}
+\contentsline {paragraph}{\numberline {3.2.3.1}determine\_day\_and\_night()}{5}{paragraph.3.2.3.1}
+\contentsline {paragraph}{\numberline {3.2.3.2}determine\_fog()}{5}{paragraph.3.2.3.2}
+\contentsline {paragraph}{\numberline {3.2.3.3}determine\_rain()}{5}{paragraph.3.2.3.3}
+\contentsline {paragraph}{\numberline {3.2.3.4}determine\_snow()}{5}{paragraph.3.2.3.4}
+\contentsline {paragraph}{\numberline {3.2.3.5}determine\_wind()}{6}{paragraph.3.2.3.5}
+\contentsline {paragraph}{\numberline {3.2.3.6}dynamic\_speed()}{6}{paragraph.3.2.3.6}
+\contentsline {paragraph}{\numberline {3.2.3.7}get\_audio()}{6}{paragraph.3.2.3.7}
+\contentsline {paragraph}{\numberline {3.2.3.8}get\_humidity()}{7}{paragraph.3.2.3.8}
+\contentsline {paragraph}{\numberline {3.2.3.9}get\_pressure()}{7}{paragraph.3.2.3.9}
+\contentsline {paragraph}{\numberline {3.2.3.10}get\_temperature()}{7}{paragraph.3.2.3.10}
+\contentsline {paragraph}{\numberline {3.2.3.11}get\_vibration()}{7}{paragraph.3.2.3.11}
+\contentsline {section}{\numberline {4}File Documentation}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}car.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}py File Reference}{8}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Detailed Description}{8}{subsubsection.4.1.1}
+\contentsline {section}{Index}{9}{section*.8}
