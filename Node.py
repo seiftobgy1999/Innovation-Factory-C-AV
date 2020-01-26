@@ -52,6 +52,11 @@ class Node:
     def get_vibration(self):
     	return self.vibration
 
+    ## @brief Gets the video a Node records
+    #  @return returns the vibration
+    def get_video(self):
+        return self.video
+
     ## @brief Checks conditions to determine when rain will occur
     #  @param audio The audio is used to determine hard rain or light rain
     #  @return returns reduced speed by a fractional portion if rain exists and 0 if otherwise
