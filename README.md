@@ -1,14 +1,20 @@
 # Autonomocity (DeltaHacks VI)
 
-Autonomocity is our project for DeltaHacks VI specifically tackling the Innovation Factory Challenge.
+Tackeling the challenge presented by Innovation factory; using exsiting nodes placed on major intersections and congested areas, make use of the live environment data that they provide to connect autonomous vehicles to make the road safer for padestrians, bikers, drivers, and all users. 
 
-The inspiration for the project arose from identifying the major issues underlying current autonomous vehicle technology out on the market at the moment
+Today's autonomous vehicles are like islands in the sense that they rely on their own sensory systems to view the world and make real time decisions. By connecting autonomous vehicles, we are able to lower the need for a high visibility radius on one singe car. This reduces the engineering and hardware costs of their sensory systems. 
 
-Our proposed solutions included:
+# Proposed methods of connecting autonomous vehicles
+- Dynamic speed limits
+- Black ice/snow patch detection & safety protocols
+- Left turn oncoming traffic indicator
+- Blind turn vehicle detection
 
-    Dynamic speed limits
-    Patches of ice and snow protocols
-    Left turn oncoming traffic indicator
-    Blind turn vehicle detection
-    Black Ice detection software
+# Dynamic speed limits
+By assessing environment variables like air pressure, temp, humidity, etc. we can make real time small adjustments to the legal speed limit. For eg, if the air pressure drops, temp drops, and humidity increase, it is most likely raining or about to rain, which is when we would lower the speed limit. 
+
+# 
+
+
+
 
